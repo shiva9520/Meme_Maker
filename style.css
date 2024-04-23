@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 3px solid green;
+    min-height: 50vh;
+    min-width: 40vw;
+    padding: 10px; 
+}
+h2{
+    text-align: center;
+    margin: 5px 0;
+}
+img{
+    max-height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+button{ 
+     margin-top: 10px; 
+     margin-left:40% ;
+}
+ 
